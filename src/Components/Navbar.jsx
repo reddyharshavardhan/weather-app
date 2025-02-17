@@ -26,7 +26,6 @@ const Navbar = ({ onSearch, onCurrentLocation, onThemeChange, checked }) => {
         padding: "10px",
         paddingLeft: "30px",
         paddingRight: "30px",
-        color: "red",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: "2px" }}>
@@ -44,6 +43,7 @@ const Navbar = ({ onSearch, onCurrentLocation, onThemeChange, checked }) => {
             backgroundColor: "white",
             borderRadius: "2rem",
             width: "22rem",
+            color: "red",
           }}
           InputProps={{
             startAdornment: (
