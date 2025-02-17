@@ -26,6 +26,7 @@ const Navbar = ({ onSearch, onCurrentLocation, onThemeChange, checked }) => {
         padding: "10px",
         paddingLeft: "30px",
         paddingRight: "30px",
+        color: "red",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: "2px" }}>
